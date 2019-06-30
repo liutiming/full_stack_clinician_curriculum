@@ -38,7 +38,6 @@ The course will be designed to be domain-specific. This means courses will be di
 This curriculum is a pilot test of a clinician-scientist community project. Currently there are communities for programmers, bioinformaticians and doctors, but there is no targeted community for clinician-scientists. As an aspiring clinician-scientist, I hope to build such a community to foster communications and inspirations among like-minded people. This can be a place to for sharing progress, experiences, resources and ideas. If you are interested in joining me to build this project, pleasae do not hesitate to [contact me](mailto:liutiming@outlook.com).
 
 This is still a repository under construction. I may hope to migrate this repository to OSSU, but I am not sure if the ideology of this curriculum is the same as theirs - it seems they are trying to emulate an undergraduate curriculum in their organisation, but I am trying to create a bootcamp. I may migrate this curriculum to a Hugo page (currently looking at Syna theme)
---------------
 
 ## Motivation & Preparation
 
@@ -72,7 +71,7 @@ This section includes the most basic knowledge that one should know before start
  Textbook | Duration | Effort
 :--: | :--: | :--:
 
-
+**UNDER CONSTRUCTION**
 
 ### 2nd Year
 
