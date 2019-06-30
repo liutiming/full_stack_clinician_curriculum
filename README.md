@@ -1,0 +1,294 @@
+![Open Source Society logo](http://i.imgur.com/kYYCXtC.png)
+
+<h3 align="center">Open Source Society University</h3>
+<p align="center">
+  :microscope: Path to a free self-taught education in  <strong>Bioinformatics!</strong>
+</p>
+<p align="center">
+  <a href="https://github.com/open-source-society/bioinformatics">
+	<img alt="Open Source Society University - Bioinformatics" src="https://img.shields.io/badge/OSSU-bioinformatics-blue.svg">
+  </a>
+  <a href="https://www.patreon.com/ossu">
+	<img alt="Contribute with OSSU on Patreon" src="https://img.shields.io/badge/Patreon-contribute-yellow.svg">
+  </a>
+</p>
+
+## Contents
+
+- [About](#about)
+- [Motivation & Preparation](#motivation--preparation)
+- [Curriculum](#curriculum)
+- [How to use this guide](#how-to-use-this-guide)
+- [Prerequisite](#prerequisite)
+- [How to collaborate](#how-to-collaborate)
+- [Code of Conduct](#code-of-conduct)
+- [Community](#community)
+- [Next Goals](#next-goals)
+- [Team](#team)
+- [References](#references)
+
+## About
+
+This is a **_practical_ path** for those of you who want to complete a **Bioinformatics** course on your own time, **for free**, with courses from the **best universities** in the World. The course has been adapted from [OSSU Bioinformatics Course](https://github.com/ossu/bioinformatics), which covers the scientific and mathematicla foundations. However, being a medical student [myself](http://timing.rbind.io), I understand the importance of bioinformatics but anticipate it will be challenging, if not impossible, for any medical student or practising doctors to incorporate a solid four-year part-time curriculum into their schedule. Thus, this curriculum is created in mind with people who need to know the basic science, programming techniques and statistical analysis immediately for their upcoming research projects. Instead of building from ground up, this curriculum is built top down, providing immediate exposure to the daily practice of a bioinformatician. Theories are introduced only later in the curriculum so that one can improve their workflow by understsanding the inner workings of the programmes and statistics. 
+
+In our curriculum, we give preference to MOOC (Massive Open Online Course) style courses because these courses were created with our style of learning in mind. I will also give preferences to courses that I have personally taken and considered them as good. However, alternative courses are always welcome. 
+
+The course will be designed to be domain-specific. This means courses will be divided into subjects in addition to their level of difficulty. This allows one student to, for example, take the statsitics course solely, because that is all they need to know for their clinical research project. 
+
+This curriculum is a pilot test of a clinician-scientist community project. Currently there are communities for programmers, bioinformaticians and doctors, but there is no targeted community for clinician-scientists. As an aspiring clinician-scientist, I hope to build such a community to foster communications and inspirations among like-minded people. This can be a place to for sharing progress, experiences, resources and ideas. If you are interested in joining me to build this project, pleasae do not hesitate to [contact me](mailto:liutiming@outlook.com).
+
+This is still a repository under construction. I may hope to migrate this repository to OSSU, but I am not sure if the ideology of this curriculum is the same as theirs - it seems they are trying to emulate an undergraduate curriculum in their organisation, but I am trying to create a bootcamp. I may migrate this curriculum to a Hugo page (currently looking at Syna theme)
+--------------
+
+## Motivation & Preparation
+
+Here are two interesting links that can make **all** the difference in your journey.
+
+The first one is a motivational video that shows a guy that went through the "MIT Challenge", which consists of learning the entire **4-year** MIT curriculum for Computer Science in **1 year**.
+
+- [MIT Challenge](https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/)
+
+The second link is a MOOC that will teach you learning techniques used by experts in art, music, literature, math, science, sports, and many other disciplines. These are **fundamental abilities** to succeed in our journey.
+
+- [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)
+
+**Are you ready to get started?**
+
+## Curriculum
+
+### Basics 
+
+This section includes the most basic knowledge that one should know before starting on a journey to become a bioinformatician. This aims to equip you with working knowledge in biology, programming (bash, python and R) and statistics.
+
+ Course | Duration | Effort
+:--: | :--: | :--:
+[Introduction to Biology](https://www.edx.org/course/introduction-biology-secret-life-mitx-7-00x-2) | 12 weeks | 7-14 Hours/Week
+[CS 1 - Python 1 ](https://www.coursera.org/learn/interactive-python-1) | 5 Weeks | 6 Hours/Week
+[CS 1 - Python 2](https://www.coursera.org/learn/interactive-python-2) | 4 Weeks | 6 Hours/Week
+[Introduction to Probability and Data (with R)](https://www.coursera.org/learn/probability-intro) | 5 Weeks | 6 Hours/Week
+[Inferential Statistics (with R)](https://www.coursera.org/learn/inferential-statistics-intro) | 5 Weeks | 6 Hours/Week
+[The Unix Workbench (first 3 weeks)](https://www.coursera.org/learn/unix) | 3 Weeks | 6 Hours/Week
+
+ Textbook | Duration | Effort
+:--: | :--: | :--:
+
+
+
+### 2nd Year
+
+Code | Course | Duration | Effort
+:-- | :--: | :--: | :--:
+[Genomic Data Science Specialization](https://www.coursera.org/specializations/genomic-data-science) | 32 Week | 6 Hours/Week  
+
+### 3rd Year
+
+Code | Course | Duration | Effort
+:-- | :--: | :--: | :--:
+BIO 3311 | [Proteins' Biology](https://www.edx.org/course/proteins-biologys-workforce) | 5 Weeks | 4-6 Hours/Week
+COMP 3311a | [Algorithmic Thinking 1 ](https://www.coursera.org/learn/algorithmic-thinking-1) | 4 Weeks | 6 Hours/Week
+COMP 3311b | [Algorithmic Thinking 2 ](https://www.coursera.org/learn/algorithmic-thinking-2) | 4 Weeks | 6 Hours/Week
+MATH 3311 | [Linear Regression and Modeling (with R)](https://www.coursera.org/learn/linear-regression-model)| 4 Weeks | 6 Hours/Week
+MATH 3312 | [Bayesian Statistics (with R)](https://www.coursera.org/learn/bayesian) | 5 Weeks | 6 Hours/Week
+BIO 3312 | [Cell Biology ](http://ocw.mit.edu/courses/biology/7-06-cell-biology-spring-2007/) | - Weeks | - Hours/Week
+MATH 3313 | [Differential Equations](https://www.edx.org/course/introduction-differential-equations-bux-math226-1x-0) | 7 Weeks | 8-10 Hours/Week
+BIO 3313a | [Biostatistics 1](https://www.coursera.org/learn/biostatistics) | 4 Weeks | 3-5 Hours/Week
+BIO 3313b | [Biostatistics 2](https://www.coursera.org/learn/biostatistics-2) | 4 Weeks | 3-5 Hours/Week
+
+
+### 4th Year
+
+Code | Course | Duration | Effort
+:-- | :--: | :--: | :--:
+BIO 4312d | [Bioinformatics 1](https://www.coursera.org/learn/dna-analysis) | 4 Weeks | 4-10 Hours/Week
+COMP 4312a | [Bioinformatics 2](https://www.coursera.org/learn/genome-sequencing) | 4 Week | 6 Hours/Week
+COMP 4312b | [Bioinformatics 3](https://www.coursera.org/learn/comparing-genomes) | 4 Week | 6 Hours/Week
+COMP 4312c | [Bioinformatics 4](https://www.coursera.org/learn/molecular-evolution) | 4 Week | 6 Hours/Week
+COMP 4312d | [Bioinformatics 5](https://www.coursera.org/learn/genomic-data) | 4 Week | 6 Hours/Week
+COMP 4312e | [Bioinformatics 6](https://www.coursera.org/learn/dna-mutations) | 4 Week | 6 Hours/Week
+COMP 4312f | [Bioinformatics 7 (Capstone)](https://www.coursera.org/learn/bioinformatics-project) | 3 Week | 3-4 Hours/Week
+BIO 4313 | [Evolution](https://www.coursera.org/learn/genetics-evolution) | 11 Weeks | 4-6 Hours/Week
+
+
+### Extra Year
+
+Code | Course | Duration | Effort
+:-- | :--: | :--: | :--:
+COMP 5311 | [Introduction to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120) | 10 Weeks | 6 Hours/Week
+COMP 5312 | [Deep Learning](https://www.udacity.com/course/deep-learning--ud730) | 8 Weeks | 6 Hours/Week
+Extension | 
+
+> Will continue with Master's in Bioinformatics
+
+
+---
+
+![keep learning](http://i.imgur.com/REQK0VU.jpg)
+
+## How to use this guide
+
+### Order of the classes
+
+This guide was developed to be consumed in a linear approach. What does this mean? That you should complete one course at a time.
+
+The courses are **already** in the order that you should complete them. Just start the first course, [Introduction to Biology](), when you done with it, start the next one.
+
+**If the course is not open, do it with the archived resources or wait until next class is open.**
+
+### How to track and show your progress
+
+1. Create an account in [Trello](https://trello.com/).
+1. Copy [this](https://trello.com/b/yax8Kgnh) board to your personal account. See how to copy a board [here](http://blog.trello.com/you-can-copy-boards-now-finally/).
+
+Now that you have a copy of our official board, you just need to pass the cards to the `Doing` column or `Done` column as you progress in your study.
+
+We also have **labels** to help you have more control through the process. The meaning of each of these labels is:
+
+- `Main Curriculum`: cards with that label represent courses that are listed in our curriculum.
+- `Extra Courses`: cards with that label represent courses that was added by the student.
+- `Doing`: cards with that label represent courses the student is current doing.
+- `Done`: cards with that label represent courses finished by the student. Those cards should also have the link for at least one project/article built with the knowledge acquired in such course.
+- `Section`: cards with that label represent the section that we have in our curriculum. Those cards with the `Section` label are only to help the organization of the Done column. You should put the *Course's cards* below its respective *Section's card*.
+- `Extra Sections`: cards with that label represent sections that was added by the student.
+
+The intention of this board is to provide for our students a way to track their progress, and also the ability to show their progress through a public page for friends, family, employers, etc. You can change the status of your board to be **public** or **private**.
+
+
+
+### Should I take all courses?
+
+**Yes!** The intention is to conclude **all** the courses listed here! Also we highly encourage you to complete more by reading papers and attending research projects after your coursework is done.
+
+### Duration of the course
+
+It may take longer to complete all of the classes compared to a  regular Bioinformatics course, but we can **guarantee** you that your **reward** will be proportional to **your motivation/dedication**!
+
+You must focus on your **habit**, and **forget** about goals. Try to invest 1 ~ 2 hours **every day** studying this curriculum. If you do this, **inevitably** you'll finish this curriculum.
+
+> See more about "Commit to a process, not a goal" [here](http://jamesclear.com/goals-systems).
+
+### Project Based
+
+Here in **OSS University**, you do **not** need to take exams, because we are focused on **real projects**!
+
+In order to show for everyone that you **successfully** finished a course, you should create a **real project** or write **papers and publish them** about your focus with Bioinformatics.
+
+> "What does it mean?"
+
+After finish a course, you should think about a **real world problem** that you can solve using the acquired knowledge in the course. You don't need to create a big project, but you must create something to **validate** and **consolidate** your knowledge, and also to show to the world that you are capable to create something useful with the concepts that you learned.
+
+> This part needs upgrade:
+  - The projects of all students will be listed in [this](https://github.com/open-source-society/help/blob/master/PROJECTS.md) file. Submit your project's information in that file after you conclude it.
+  - Research focused projects
+
+  Put the OSSU-Bioinformatics badge in the README of your repository! [![Open Source Society University - Bioinformatics](https://img.shields.io/badge/OSSU-bioinformatics-blue.svg)](https://github.com/open-source-society/bioinformatics)
+
+  - Markdown: `[![Open Source Society University - Bioinformatics ](https://img.shields.io/badge/OSSU-bioinformatics-blue.svg)](https://github.com/open-source-society/bioinformatics)`
+  - HTML: `<a href="https://github.com/open-source-society/bioinformatics"><img alt="Open Source Society University - Bioinformatics" src="https://img.shields.io/badge/OSSU-bioinformatics-blue.svg"></a>`
+
+**You can create this project alone or with other students!**
+
+#### Project Suggestions
+1. (Add Suggestions Here)
+
+
+And you should also...
+
+### Be creative!
+
+This is a **crucial** part of your journey through all those courses.
+
+You **need** to have in mind that what you are able to **create** with the concepts that you learned will be your certificate **and this is what really matters**!
+
+In order to show that you **really** learned those things, you need to be **creative**!
+
+Here are some tips about how you can do that:
+
+- **Articles**: create blog posts to synthesize/summarize what you learned.
+- **GitHub repository**: keep your course's files organized in a GH repository, so in that way other students can use it to study with your annotations.
+
+### Cooperative work
+
+**We love cooperative work**! Use our [channels](#community) to communicate with other fellows to combine and create new projects!
+
+### Which programming languages should I use?
+
+List of skills:
+- C/C++
+- Unix System
+- Python/Perl
+- R
+- Algorithms
+
+These skills mentioned above are the very essential tool set that bioinformatician and computational biologist depends on.
+
+The **important** thing for each course is to **internalize** the **core concepts** and to be able to use them with whatever tool (programming language) that you wish.
+
+### Content Policy
+
+You must share **only** files that you are **allowed** to! **Do NOT disrespect the code of conduct** that you signed in the beginning of some courses.
+
+[Be creative](#be-creative) in order to show your progress! :smile:
+
+### Stay tuned
+
+[Watch](https://help.github.com/articles/watching-repositories/) this repository for futures improvements and general information.
+
+## Prerequisite
+
+The **only things** that you need to know are how to use **Git** and **GitHub**. Here are some resources to learn about them:
+
+**Note**: Just pick one of the courses below to learn the basics. You will learn a lot more once you get started!
+
+- [Try Git](https://try.github.io/levels/1/challenges/1)
+- [Git - the simple guide](http://rogerdudler.github.io/git-guide/)
+- [GitHub Training & Guides](https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-)
+- [GitHub Hello World](https://guides.github.com/activities/hello-world/)
+- [Git Immersion](http://gitimmersion.com/index.html)
+- [How to Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
+
+## Change Log
+
+
+## How to collaborate
+
+You can [open an issue](https://help.github.com/articles/creating-an-issue/) and give us your suggestions as to how we can improve this guide, or what we can do to improve the learning experience.
+
+You can also [fork this project](https://help.github.com/articles/fork-a-repo/) and send a [pull request](https://help.github.com/articles/using-pull-requests/) to fix any mistakes that you have found.
+
+TODO:
+If you want to suggest a new resource, send a pull request adding such resource to the [extras](https://github.com/open-source-society/bioinformatics/tree/master/extras) section.
+
+The **extras** section is a place where all of us will be able to submit interesting additional articles, books, courses and specializations, keeping our curriculum *as immutable and concise as possible*.
+
+**Let's do it together! =)**
+
+## Code of conduct
+
+[OSSU's code of conduct](https://github.com/ossu/code-of-conduct).
+
+## Community
+
+Subscribe to our [newsletter](https://tinyletter.com/ossu)
+
+Use our [forum](https://github.com/ossu/forum) if you need some help.
+
+You can also interact through [GitHub issues](https://github.com/open-source-society/bioinformatics/issues).
+
+We also have a chat room!
+[![Gitter](https://badges.gitter.im/open-source-society/bioinformatics.svg)](https://gitter.im/open-source-society/bioinformatics)
+
+Add **Open Source Society University** to your [Linkedin](https://www.linkedin.com/school/11272443/) and [Facebook](https://www.facebook.com/ossuniversity) profile!
+
+> **ps**: A forum is an ideal way to interact with other students as we do not lose important discussions, which usually occur in communication via chat apps. **Please use our forum for important discussions**.
+
+## Next Goals
+
+- [Add our University page at Linkedin](https://help.linkedin.com/app/answers/detail/a_id/40128/~/adding-a-new-university-page), so in that way we will be able to add **OSS University** in our Linkedin profile.
+
+## Team
+
+* **Curriculum Founder**: [Enes Kemal Ergin](https://github.com/eneskemalergin)
+* **Curriculum Maintainer**: [Enes Kemal Ergin](https://github.com/eneskemalergin)
+* **Contributors**: [contributors](https://github.com/open-source-society/bioinformatics/graphs/contributors)
+
+## References
